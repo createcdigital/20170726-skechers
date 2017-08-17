@@ -1,0 +1,175 @@
+html, body {
+    position: relative;
+    height: 100%;
+}
+body {
+    background: white;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color:#000;
+    margin: 0;
+    padding: 0;
+}
+.swiper-container {
+    width: 100%;
+    height: 100%;
+}
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+
+     /*Center slide text vertically*/
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+.img{
+    width: 100%;
+    height: 100%;
+    /*background-size: 100% 100%;*/
+}
+
+.btn{
+    position: absolute;
+    top: 77%;
+    left:17%;
+    z-index: 10;
+}
+
+.icon{
+    display: none;
+    position: fixed;
+    top:48%;
+    z-index: 10;
+}
+.icon-public{
+    width: 0.8em;
+    height: 0.8em;
+    position: absolute;
+    -webkit-transform: translate(0,-50%) rotate(-135deg);
+    transform: translate(0,-50%) rotate(-135deg);
+    -moz-transform: translate(0,-50%) rotate(-135deg);
+    -o-transform: translate(0,-50%) rotate(-135deg);
+}
+
+.icon-left{
+    border-right: 3px solid #9FD4CD;
+    border-top: 3px solid #9FD4CD;
+}
+
+.icon-right{
+    border-left: 3px solid #9FD4CD;
+    border-bottom: 3px solid #9FD4CD;
+}
+
+.icon-bottom{
+    border-left: 3px solid #9FD4CD;
+    border-top: 3px solid #9FD4CD;
+}
+.swiper-slide a{
+    width: 100%;
+    height: 100%;
+}
+.btn-style{
+    width: 0.8em;
+    height: 0.8em;
+    position: absolute;
+    border-left: 2px solid #9FD4CD;
+    border-bottom: 2px solid #9FD4CD;
+    -webkit-transform: translate(0,-50%) rotate(-135deg);
+    transform: translate(0,-50%) rotate(-135deg);
+    -moz-transform: translate(0,-50%) rotate(-135deg);
+    -o-transform: translate(0,-50%) rotate(-135deg);
+}
+.am1{
+    animation: myfirst 1s infinite;
+    -moz-animation: myfirst 1s infinite;	/* Firefox */
+    -webkit-animation: myfirst 1s infinite;	/* Safari 和 Chrome */
+    -o-animation: myfirst 1s infinite;	/* Opera */
+}
+
+.am2{
+    animation: myfirst2 1s infinite;
+    -moz-animation: myfirst2 1s infinite;	/* Firefox */
+    -webkit-animation: myfirst2 1s infinite;	/* Safari 和 Chrome */
+    -o-animation: myfirst2 1s infinite;	/* Opera */
+}
+
+.am3{
+    animation: myfirst3 1s infinite;
+    -moz-animation: myfirst3 1s infinite;	/* Firefox */
+    -webkit-animation: myfirst3 1s infinite;	/* Safari 和 Chrome */
+    -o-animation: myfirst3 1s infinite;	/* Opera */
+}
+
+@keyframes myfirst
+{
+    33.33% {opacity: 0;}
+}
+
+@-moz-keyframes myfirst /* Firefox */
+{
+    33.33% {opacity: 0;}
+}
+
+@-webkit-keyframes myfirst /* Safari 和 Chrome */
+{
+    33.33% {opacity: 0;}
+}
+
+@-o-keyframes myfirst /* Opera */
+{
+    33.33% {opacity: 0;}
+}
+
+
+@keyframes myfirst2
+{
+    66.66% {opacity: 0;}
+}
+
+@-moz-keyframes myfirst2 /* Firefox */
+{
+    66.66% {opacity: 0;}
+}
+
+@-webkit-keyframes myfirst2 /* Safari 和 Chrome */
+{
+    66.66% {opacity: 0;}
+}
+
+@-o-keyframes myfirst2 /* Opera */
+{
+    66.66% {opacity: 0;}
+}
+
+
+
+@keyframes myfirst3
+{
+    100% {opacity: 0;}
+}
+
+@-moz-keyframes myfirst3 /* Firefox */
+{
+    100% {opacity: 0;}
+}
+
+@-webkit-keyframes myfirst3 /* Safari 和 Chrome */
+{
+    100% {opacity: 0;}
+}
+
+@-o-keyframes myfirst3 /* Opera */
+{
+    100% {opacity: 0;}
+}
